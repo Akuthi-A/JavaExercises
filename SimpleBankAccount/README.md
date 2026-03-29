@@ -40,7 +40,7 @@ The constructor should:
 
 #### ✅ `displayBalance()`
 - Prints the account balance in the format: 
-`10000`
+`Balance: R10000`
 
 #### ✅ `getBalance()`
 - Returns the balance 
