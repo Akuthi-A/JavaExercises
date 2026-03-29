@@ -2,12 +2,14 @@ package banking;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        BankAccount aBankAccount = new BankAccount("Kenny", 10000);
 
-        BankAccount urBank = new BankAccount();
-        BankAccount aBank = new BankAccount(10000);
+        aBankAccount.displayBalance();
+        aBankAccount.withdraw(2000);
+        aBankAccount.displayBalance();
+        aBankAccount.deposit(1000);
+        aBankAccount.displayBalance();
 
-        System.out.println(urBank.toString());
-        System.out.println(aBank.toString());
+        
     }
 }
